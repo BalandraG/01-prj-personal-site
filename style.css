@@ -591,6 +591,36 @@ nav a[aria-current="page"] {
   text-align: left;
 }
 
+/* Progressive reveal */
+.reveal-item {
+  --reveal-delay: 0ms;
+  opacity: 1;
+  transform: none;
+  transition: opacity 750ms ease-out, transform 750ms ease-out;
+  transition-delay: var(--reveal-delay);
+}
+
+.reveal-item.reveal-ready {
+  opacity: 0;
+  transform: translateY(50px) scale(0.98);
+}
+
+.reveal-item.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-item,
+  .reveal-item.reveal-ready,
+  .reveal-item.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    transition-delay: 0ms;
+  }
+}
+
 /* Contact */
 #contact {
   background-color: var(--color-surface);

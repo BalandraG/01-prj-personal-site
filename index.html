@@ -6,6 +6,7 @@
   <title>Guillermo Balandra — Portfolio</title>
   <meta name="description" content="Portfolio of Guillermo Balandra, Information Technology student at Elmhurst University. View web projects, technical skills, and personal interests.">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <!-- Site header: logo/name and primary navigation -->
@@ -37,7 +38,7 @@
 
     <!-- About section -->
     <section id="about">
-      <div class="about-panel">
+      <div class="about-panel reveal-item" style="--reveal-delay: 0ms;">
         <h2>About Me</h2>
         <p>Hello! Welcome to my page, this is where I showcase and in some cases show off some of my projects and current work! I enjoy building and creating much more than just websites. From applications to video games, I also dabble in 3D modeling and pretty much anything related to technology.</p>
 
@@ -54,7 +55,7 @@
         <p>I hope to one day work for a company that can use my skills in a way that can positively impact the world around me.</p>
       </div>
       <!-- Temporary stock media stored locally; may be replaced later -->
-      <div class="about-media">
+      <div class="about-media reveal-item" style="--reveal-delay: 100ms;">
         <img
           src="images/about/vertical-pc-tower.jpg"
           alt="Illuminated custom PC tower standing on a desk"
@@ -68,7 +69,7 @@
     <section id="skills">
       <h2>Skills</h2>
 
-      <div class="skill-group">
+      <div class="skill-group reveal-item" style="--reveal-delay: 0ms;">
         <h3>Development Languages &amp; Technologies</h3>
         <ul>
           <li><img class="skill-icon" src="icons/python.svg" alt="" width="18" height="18" aria-hidden="true"> Python</li>
@@ -78,7 +79,7 @@
         </ul>
       </div>
 
-      <div class="skill-group">
+      <div class="skill-group reveal-item" style="--reveal-delay: 100ms;">
         <h3>Development Tools</h3>
         <ul>
           <li><img class="skill-icon" src="icons/github.svg" alt="" width="18" height="18" aria-hidden="true"> GitHub</li>
@@ -88,7 +89,7 @@
         </ul>
       </div>
 
-      <div class="skill-group">
+      <div class="skill-group reveal-item" style="--reveal-delay: 200ms;">
         <h3>Software &amp; Platforms</h3>
         <ul>
           <li><img class="skill-icon" src="icons/windows.svg" alt="" width="18" height="18" aria-hidden="true"> Windows</li>
@@ -100,7 +101,7 @@
         </ul>
       </div>
 
-      <div class="skill-group skill-group--learning">
+      <div class="skill-group skill-group--learning reveal-item" style="--reveal-delay: 300ms;">
         <h3>Currently Learning</h3>
         <ul>
           <li><img class="skill-icon" src="icons/blender.svg" alt="" width="18" height="18" aria-hidden="true"> Blender 3D</li>
@@ -109,7 +110,7 @@
         </ul>
       </div>
 
-      <div class="skill-group">
+      <div class="skill-group reveal-item" style="--reveal-delay: 400ms;">
         <h3>Other Technical Skills</h3>
         <ul>
           <li><img class="skill-icon" src="icons/aws.svg" alt="" width="18" height="18" aria-hidden="true"> AWS Cloud Practitioner</li>
@@ -124,7 +125,7 @@
       <h2>Featured Projects</h2>
       <p>Here are 4 websites that I have built and am currently working on GitHub!</p>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 0ms;">
         <!-- Temporary stock image; replace later with a real project screenshot -->
         <img
           class="project-preview"
@@ -132,6 +133,7 @@
           alt="Friendly dog resting outdoors"
           width="800"
           height="450"
+          loading="lazy"
         >
         <h3>Pet Fostering Website</h3>
         <p>A call to Action website for a local pet fostering organization.</p>
@@ -141,7 +143,7 @@
         </p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 100ms;">
         <!-- Temporary stock image; replace later with a real project screenshot -->
         <img
           class="project-preview"
@@ -149,6 +151,7 @@
           alt="Person typing on a laptop at a desk"
           width="800"
           height="450"
+          loading="lazy"
         >
         <h3>My Profile Card</h3>
         <p>A website with a little about me!</p>
@@ -158,7 +161,7 @@
         </p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 200ms;">
         <!-- Temporary stock image; replace later with a real project screenshot -->
         <img
           class="project-preview"
@@ -166,6 +169,7 @@
           alt="Stack of newspapers on a surface"
           width="800"
           height="450"
+          loading="lazy"
         >
         <h3>News Article Website</h3>
         <p>A place where you can get some news!</p>
@@ -175,7 +179,7 @@
         </p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 300ms;">
         <!-- Temporary stock image; replace later with a real project screenshot -->
         <img
           class="project-preview"
@@ -183,6 +187,7 @@
           alt="Ceramic mug on a wooden table"
           width="800"
           height="450"
+          loading="lazy"
         >
         <h3>A Product Landing Page</h3>
         <p>InvisiMug! A website for a product that is not yet released!</p>
@@ -200,7 +205,7 @@
       <h2>Beyond Code</h2>
       <p>While my focus is on school and technology, I have many interests that fill up my time. Here is a little more about me!</p>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 0ms;">
         <!-- Temporary stock media; may be replaced later -->
         <img
           class="interest-preview"
@@ -208,12 +213,13 @@
           alt="American football on a field under stadium lights"
           width="800"
           height="500"
+          loading="lazy"
         >
         <h3>Football</h3>
         <p>I never miss a Chicago Bears game, I am also deeply invested in fantasy football and also enjoy playing Madden!</p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 100ms;">
         <!-- Temporary stock media; may be replaced later -->
         <img
           class="interest-preview"
@@ -221,12 +227,13 @@
           alt="Game controller resting on a surface"
           width="800"
           height="500"
+          loading="lazy"
         >
         <h3>Video Games</h3>
         <p>I enjoy playing strategy games like the Total War series, the Anno series, and Crusader Kings. I also dip into sports games and some fighting games if they relate to certain animes like Dragon Ball or Naruto. I also never miss a Pokemon game as I am old enough to remember Red Verison on the Game Boy Color!</p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 200ms;">
         <!-- Temporary stock media; may be replaced later -->
         <img
           class="interest-preview"
@@ -234,12 +241,13 @@
           alt="Grilled food cooking over an open flame"
           width="800"
           height="500"
+          loading="lazy"
         >
         <h3>Cooking</h3>
         <p>I enjoy cooking and grilling. Making food for my wife and family makes my day. My dogs often reap the rewards as well!</p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 300ms;">
         <!-- Temporary stock media; may be replaced later -->
         <img
           class="interest-preview"
@@ -247,12 +255,13 @@
           alt="Paintbrushes and colorful paint on a palette"
           width="800"
           height="500"
+          loading="lazy"
         >
         <h3>Art</h3>
         <p>I enjoy art; you can sometimes find me drawing or creating pieces on my iPad. I also dabble in 3D modeling and photography. I enjoy going to local art events and museums.</p>
       </article>
 
-      <article>
+      <article class="reveal-item" style="--reveal-delay: 400ms;">
         <!-- Temporary stock media; may be replaced later -->
         <img
           class="interest-preview"
@@ -260,6 +269,7 @@
           alt="Ancient stone ruins under a clear sky"
           width="800"
           height="500"
+          loading="lazy"
         >
         <h3>History</h3>
         <p>Like I said, I enjoy going to museums and learning about history in general. I have read loads of books on ancient cultures around the world, and I am currently doing some research on Mexico's indigenous cultures and history.</p>
@@ -268,7 +278,7 @@
     </section>
 
     <!-- Contact section -->
-    <section id="contact">
+    <section id="contact" class="reveal-item" style="--reveal-delay: 0ms;">
       <h2>Contact</h2>
       <p>Here you can find some of my contact information. Feel free to reach out!</p>
       <ul>
