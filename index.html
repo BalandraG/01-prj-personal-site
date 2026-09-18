@@ -2,10 +2,301 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guillermo Balandra — Portfolio</title>
+  <meta name="description" content="Portfolio of Guillermo Balandra, Information Technology student at Elmhurst University. View web projects, technical skills, and personal interests.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Site header: logo/name and primary navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Home / intro section -->
+    <section id="home">
+      <h1>Guillermo Balandra</h1>
+      <p>Student at Elmhurst University</p>
+      <p>Scroll down to learn more about me, my projects, and my interests!</p>
+      <p>
+        <a href="projects.html">View My Projects</a>
+        <a href="#about">About Me</a>
+      </p>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="about-panel">
+        <h2>About Me</h2>
+        <p>Hello! Welcome to my page, this is where I showcase and in some cases show off some of my projects and current work! I enjoy building and creating much more than just websites. From applications to video games, I also dabble in 3D modeling and pretty much anything related to technology.</p>
+
+        <h3>Background</h3>
+        <p>I was born and raised in Chicago, graduated from Lane Technical High School, and proceeded to try my hand in different fields before settling on commercial fiber optic installation between cell towers and data centers. I then proceeded to join the Marine Corps as a Transmissions Systems Operator, where I worked closely with radios, antennas, and network equipment to support communication operations. I am now pursuing a degree in Information Technology.</p>
+
+        <h3>Education</h3>
+        <p>I am currently pursuing a degree in Information Technology at Elmhurst University.</p>
+
+        <h3>Interest in Technology</h3>
+        <p>While I have always been interested in technology, my love for it has been cemented as almost all of my hobbies, interests, and even career choices have revolved around it. I am always eager to learn something new, and I hope that I can continue to grow my skills so that I can apply them to real-world projects.</p>
+
+        <h3>Career Goals</h3>
+        <p>I hope to one day work for a company that can use my skills in a way that can positively impact the world around me.</p>
+      </div>
+      <!-- Temporary stock media stored locally; may be replaced later -->
+      <div class="about-media">
+        <img
+          src="images/about/vertical-pc-tower.jpg"
+          alt="Illuminated custom PC tower standing on a desk"
+          width="900"
+          height="1195"
+        >
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skill-group">
+        <h3>Development Languages &amp; Technologies</h3>
+        <ul>
+          <li><img class="skill-icon" src="icons/python.svg" alt="" width="18" height="18" aria-hidden="true"> Python</li>
+          <li><img class="skill-icon" src="icons/cplusplus.svg" alt="" width="18" height="18" aria-hidden="true"> C++</li>
+          <li><img class="skill-icon" src="icons/csharp.svg" alt="" width="18" height="18" aria-hidden="true"> C#</li>
+          <li><img class="skill-icon" src="icons/javascript.svg" alt="" width="18" height="18" aria-hidden="true"> JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Development Tools</h3>
+        <ul>
+          <li><img class="skill-icon" src="icons/github.svg" alt="" width="18" height="18" aria-hidden="true"> GitHub</li>
+          <li><img class="skill-icon" src="icons/vscode.svg" alt="" width="18" height="18" aria-hidden="true"> VS Code</li>
+          <li><img class="skill-icon" src="icons/androidstudio.svg" alt="" width="18" height="18" aria-hidden="true"> Android Studio</li>
+          <li>Cursor</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Software &amp; Platforms</h3>
+        <ul>
+          <li><img class="skill-icon" src="icons/windows.svg" alt="" width="18" height="18" aria-hidden="true"> Windows</li>
+          <li><img class="skill-icon" src="icons/linux.svg" alt="" width="18" height="18" aria-hidden="true"> Linux</li>
+          <li><img class="skill-icon" src="icons/unity.svg" alt="" width="18" height="18" aria-hidden="true"> Unity</li>
+          <li><img class="skill-icon" src="icons/blender.svg" alt="" width="18" height="18" aria-hidden="true"> Blender</li>
+          <li><img class="skill-icon" src="icons/photoshop.svg" alt="" width="18" height="18" aria-hidden="true"> Adobe Photoshop</li>
+          <li><img class="skill-icon" src="icons/illustrator.svg" alt="" width="18" height="18" aria-hidden="true"> Adobe Illustrator</li>
+        </ul>
+      </div>
+
+      <div class="skill-group skill-group--learning">
+        <h3>Currently Learning</h3>
+        <ul>
+          <li><img class="skill-icon" src="icons/blender.svg" alt="" width="18" height="18" aria-hidden="true"> Blender 3D</li>
+          <li><img class="skill-icon" src="icons/unity.svg" alt="" width="18" height="18" aria-hidden="true"> Unity</li>
+          <li><img class="skill-icon" src="icons/csharp.svg" alt="" width="18" height="18" aria-hidden="true"> C#</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Other Technical Skills</h3>
+        <ul>
+          <li><img class="skill-icon" src="icons/aws.svg" alt="" width="18" height="18" aria-hidden="true"> AWS Cloud Practitioner</li>
+          <li><img class="skill-icon" src="icons/steam.svg" alt="" width="18" height="18" aria-hidden="true"> Steam modding</li>
+          <li>Command Line</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Featured projects section -->
+    <section id="featured-projects">
+      <h2>Featured Projects</h2>
+      <p>Here are 4 websites that I have built and am currently working on GitHub!</p>
+
+      <article>
+        <!-- Temporary stock image; replace later with a real project screenshot -->
+        <img
+          class="project-preview"
+          src="images/projects/pet-fostering.jpg"
+          alt="Friendly dog resting outdoors"
+          width="800"
+          height="450"
+        >
+        <h3>Pet Fostering Website</h3>
+        <p>A call to Action website for a local pet fostering organization.</p>
+        <p>
+          <a href="https://balandrag.github.io/01-pet-fostering-cta/" target="_blank" rel="noopener noreferrer">View Live</a>
+          <a href="https://github.com/BalandraG/01-pet-fostering-cta" target="_blank" rel="noopener noreferrer">View Source</a>
+        </p>
+      </article>
+
+      <article>
+        <!-- Temporary stock image; replace later with a real project screenshot -->
+        <img
+          class="project-preview"
+          src="images/projects/profile-card.jpg"
+          alt="Person typing on a laptop at a desk"
+          width="800"
+          height="450"
+        >
+        <h3>My Profile Card</h3>
+        <p>A website with a little about me!</p>
+        <p>
+          <a href="https://balandrag.github.io/01-profile-card-html/" target="_blank" rel="noopener noreferrer">View Live</a>
+          <a href="https://github.com/BalandraG/01-profile-card-html" target="_blank" rel="noopener noreferrer">View Source</a>
+        </p>
+      </article>
+
+      <article>
+        <!-- Temporary stock image; replace later with a real project screenshot -->
+        <img
+          class="project-preview"
+          src="images/projects/news-articles.jpg"
+          alt="Stack of newspapers on a surface"
+          width="800"
+          height="450"
+        >
+        <h3>News Article Website</h3>
+        <p>A place where you can get some news!</p>
+        <p>
+          <a href="https://balandrag.github.io/02-applying-styles-articles/" target="_blank" rel="noopener noreferrer">View Live</a>
+          <a href="https://github.com/BalandraG/02-applying-styles-articles" target="_blank" rel="noopener noreferrer">View Source</a>
+        </p>
+      </article>
+
+      <article>
+        <!-- Temporary stock image; replace later with a real project screenshot -->
+        <img
+          class="project-preview"
+          src="images/projects/product-landing-mug.jpg"
+          alt="Ceramic mug on a wooden table"
+          width="800"
+          height="450"
+        >
+        <h3>A Product Landing Page</h3>
+        <p>InvisiMug! A website for a product that is not yet released!</p>
+        <p>
+          <a href="https://balandrag.github.io/02-product-landing-page/" target="_blank" rel="noopener noreferrer">View Live</a>
+          <a href="https://github.com/BalandraG/02-product-landing-page" target="_blank" rel="noopener noreferrer">View Source</a>
+        </p>
+      </article>
+
+      <p><a href="projects.html">View All Projects</a></p>
+    </section>
+
+    <!-- Interests section -->
+    <section id="interests">
+      <h2>Beyond Code</h2>
+      <p>While my focus is on school and technology, I have many interests that fill up my time. Here is a little more about me!</p>
+
+      <article>
+        <!-- Temporary stock media; may be replaced later -->
+        <img
+          class="interest-preview"
+          src="images/interests/american-football-stadium.jpg"
+          alt="American football on a field under stadium lights"
+          width="800"
+          height="500"
+        >
+        <h3>Football</h3>
+        <p>I never miss a Chicago Bears game, I am also deeply invested in fantasy football and also enjoy playing Madden!</p>
+      </article>
+
+      <article>
+        <!-- Temporary stock media; may be replaced later -->
+        <img
+          class="interest-preview"
+          src="images/interests/video-games-controller.jpg"
+          alt="Game controller resting on a surface"
+          width="800"
+          height="500"
+        >
+        <h3>Video Games</h3>
+        <p>I enjoy playing strategy games like the Total War series, the Anno series, and Crusader Kings. I also dip into sports games and some fighting games if they relate to certain animes like Dragon Ball or Naruto. I also never miss a Pokemon game as I am old enough to remember Red Verison on the Game Boy Color!</p>
+      </article>
+
+      <article>
+        <!-- Temporary stock media; may be replaced later -->
+        <img
+          class="interest-preview"
+          src="images/interests/cooking-grill.jpg"
+          alt="Grilled food cooking over an open flame"
+          width="800"
+          height="500"
+        >
+        <h3>Cooking</h3>
+        <p>I enjoy cooking and grilling. Making food for my wife and family makes my day. My dogs often reap the rewards as well!</p>
+      </article>
+
+      <article>
+        <!-- Temporary stock media; may be replaced later -->
+        <img
+          class="interest-preview"
+          src="images/interests/art-paintbrushes.jpg"
+          alt="Paintbrushes and colorful paint on a palette"
+          width="800"
+          height="500"
+        >
+        <h3>Art</h3>
+        <p>I enjoy art; you can sometimes find me drawing or creating pieces on my iPad. I also dabble in 3D modeling and photography. I enjoy going to local art events and museums.</p>
+      </article>
+
+      <article>
+        <!-- Temporary stock media; may be replaced later -->
+        <img
+          class="interest-preview"
+          src="images/interests/history-ancient-ruins.jpg"
+          alt="Ancient stone ruins under a clear sky"
+          width="800"
+          height="500"
+        >
+        <h3>History</h3>
+        <p>Like I said, I enjoy going to museums and learning about history in general. I have read loads of books on ancient cultures around the world, and I am currently doing some research on Mexico's indigenous cultures and history.</p>
+      </article>
+
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Here you can find some of my contact information. Feel free to reach out!</p>
+      <ul>
+        <li>
+          <span class="contact-icon" aria-hidden="true">
+            <img src="icons/envelope.svg" alt="" width="18" height="18">
+          </span>
+          <a href="mailto:balandraguillermo@gmail.com">balandraguillermo@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-icon" aria-hidden="true">
+            <img src="icons/github.svg" alt="" width="18" height="18">
+          </span>
+          <a href="https://github.com/BalandraG" target="_blank" rel="noopener noreferrer">github.com/BalandraG</a>
+        </li>
+        <li>
+          <span class="contact-icon" aria-hidden="true">
+            <img src="icons/linkedin.svg" alt="" width="18" height="18">
+          </span>
+          <a href="https://www.linkedin.com/in/guillermo-jr-91a75b219/" target="_blank" rel="noopener noreferrer">linkedin.com/in/guillermo-jr-91a75b219</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Site footer -->
+  <footer>
+    <p>&copy; 2026 Guillermo Balandra. This website was built by me.</p>
+  </footer>
 </body>
 </html>
